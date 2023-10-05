@@ -48,3 +48,6 @@
    ```
 
 3. Find the difference between a variable and pointer in C. What mean notations `*variable` and `&variable`?
+
+Arduino style 508 B
+register 182 B
