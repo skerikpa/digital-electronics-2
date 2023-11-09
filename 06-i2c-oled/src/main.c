@@ -7,14 +7,14 @@ int main(void)
     oled_init(OLED_DISP_ON);
     oled_clrscr();
 
-    for(int i = 0; i<50; i++)
+    /*for(int i = 0; i<50; i++)
     {
       oled_gotoxy(i, 0);
       oled_putc('|');
       oled_display();
     }
 
-    oled_clrscr();
+    oled_clrscr();*/
 
     oled_charMode(DOUBLESIZE);
     oled_puts("OLED disp.");
